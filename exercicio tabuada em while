@@ -1,0 +1,16 @@
+#include <stdio.h>
+// fazer exercicio da tabuada em while
+int main()
+{ int numero, conta = 0, mutiplicador;
+    
+    printf("Informe o numero que quer saber a tabuada: ");
+    scanf("%i", &numero);
+    
+    while (conta <= 10){
+     printf("%i x %i = %i  \n", numero,mutiplicador, numero*mutiplicador);
+     conta ++;
+     mutiplicador ++;
+        
+    }
+
+}
